@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+    padding: 1rem 0;
+}
+.field {
+    width: 100%;
+    height: 40rem;
+    border: 1px solid;
+}
+.bat {
+    height: 400px;
+    width: 400px;
+    transition: transform .3s ease-in;
+}
+.field:hover .bat {
+    transform: rotate(-75deg);
+    transform-origin: top right;
+}
+.ball {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: red;
+    position: relative;
+    left: 628px;
+    bottom: 50px;
+    transition: transform 1s ease-out .35s;
+}
+.field:hover .ball {
+    transform: translate(700px, -150px);
+}
