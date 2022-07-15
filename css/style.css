@@ -12,6 +12,9 @@ h1 {
     height: 40rem;
     border: 1px solid;
 }
+.inner {
+    margin-top: 60px;
+}
 .bat {
     height: 400px;
     width: 400px;
